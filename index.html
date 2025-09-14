@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Card</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Choose Your Meal</h2>
+
+    <!-- Box 1 -->
+    <div class="box">
+      <div class="box-row">
+        <input type="radio" name="unit">
+        <div class="info">
+          <h3 class="box-title">Veg Burger <span class="discount">10% Off</span></h3>
+        </div>
+        <div class="price">
+          <span class="current">$5.00</span>
+        </div>
+      </div>
+      <div class="expanded">
+        <div class="row">
+          <label>Size:</label>
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+          <select>
+            <option>Veg</option>
+            <option>Non-Veg</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box">
+      <div class="box-row">
+        <input type="radio" name="unit">
+        <div class="info">
+          <h3 class="box-title">Cheese Pizza <span class="discount">20% Off</span> <span class="tag">MOST POPULAR</span></h3>
+        </div>
+        <div class="price">
+          <span class="current">$9.00</span>
+          <span class="old">$11.00</span>
+        </div>
+      </div>
+      <div class="expanded">
+        <div class="row">
+          <label>Size:</label>
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+          <select>
+            <option>Regular Cheese</option>
+            <option>Extra Cheese</option>
+            <option>Veggie</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box">
+      <div class="box-row">
+        <input type="radio" name="unit">
+        <div class="info">
+          <h3 class="box-title">Spicy Pasta <span class="discount">15% Off</span></h3>
+        </div>
+        <div class="price">
+          <span class="current">$7.00</span>
+        </div>
+      </div>
+      <div class="expanded">
+        <div class="row">
+          <label>Size:</label>
+          <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+          <select>
+            <option>Veg</option>
+            <option>Non-Veg</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Delivery & Total Section -->
+    <div class="cart-summary-wrapper">
+      <div class="cart-summary">
+        <div class="left">🚚 Free Delivery</div>
+        <div class="right">Total: $9.00</div>
+      </div>
+      <div class="cart-actions">
+        <button class="action-btn">+ Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
